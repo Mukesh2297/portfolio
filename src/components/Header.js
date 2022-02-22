@@ -1,8 +1,6 @@
 import {Nav,Navbar} from "react-bootstrap";
 
 const Header = () => {
-  let headerContents = ["ABOUT", "MY WORK", "CONTACT", "SOCIAL"];
-
   return (
       <Navbar bg='dark' variant='dark' expand='sm' collapseOnSelect> 
       <div className="container">
