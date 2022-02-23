@@ -1,34 +1,28 @@
+import './About.css';
 import myImg from "../assets/my-img-2.jpg";
 
 const About = () => {
-    return (
-        <div></div>
-        // <div class="container">
-        //     <div class="row">
-        //         <div class="col-md-8 col-lg-6 B">
-        //             <div class="card card-inverse card-primary">
-        //                 <img height="10%"
-        //                     src={myImg}
-        //                     class="img-fluid"
-        //                     alt="Profile Picture"
-        //                 /></div>
-        //         </div>
-        //         <div class="col-md-4 col-lg-3 G">
-        //             <div class="row h-100">
-        //                 <div class="col-md-6 col-lg-6 B h-50 pb-3">
-        //                     <div class="card card-inverse card-success h-100"></div>
-        //                 </div>
-        //                 <div class="col-md-6 col-lg-6 B h-50 pb-3">
-        //                     <div class="card card-inverse bg-success h-100"></div>
-        //                 </div>
-        //                 <div class="col-md-12 h-50">
-        //                     <div class="card card-inverse bg-danger h-100"></div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
-    );
+  return (
+    <div className="about-container">
+        <div className="card" >
+            <div className="row">
+                <div className="col-md-4">
+                    <img src={myImg} className="img-fluid" alt="Display" />
+                </div>
+                <div className="col-md-8">
+                    <div className="h-100 d-flex flex-column align-items-start justify-content-center">
+                        <div>
+                            <h1>Hello my name is <br /><b>Mukesh</b></h1>
+                        </div>
+                        <div>
+                            <h3>Software Engineer - Chennai</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  );
 };
 
 export default About;

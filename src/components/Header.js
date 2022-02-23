@@ -1,6 +1,6 @@
 import {Nav,Navbar} from "react-bootstrap";
 
-const Header = () => {
+const Header = () => {      
   return (
       <Navbar bg='dark' variant='dark' expand='sm' collapseOnSelect> 
       <div className="container">

@@ -1,0 +1,26 @@
+.about-container{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:70%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) { 
+    /* for 10 inches tablet screens */
+   .about-container{
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .card{
+       width: 90%;
+   }
+  } 

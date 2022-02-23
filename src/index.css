@@ -14,8 +14,8 @@ code {
 
 html body {
   /* background-color: rgba(0,0,0,1.00); */
-  background-color: white;
-  color:#fff;
+  background-color:#000;
+  color:#000;
 }
 
 .header{
@@ -38,3 +38,4 @@ html body {
   background-color: white;
   width: 70%;
 }
+
