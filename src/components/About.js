@@ -6,10 +6,10 @@ const About = () => {
     <div className="about-container">
         <div className="card" >
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-lg-5">
                     <img src={myImg} className="img-fluid" alt="Display" />
                 </div>
-                <div className="col-md-8">
+                <div className="col-lg-7">
                     <div className="h-100 d-flex flex-column align-items-start justify-content-center">
                         <div>
                             <h1>Hello my name is <br /><b>Mukesh</b></h1>
