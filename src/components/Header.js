@@ -15,7 +15,7 @@ const Header = () => {
           {
             headerContents.map((arrItem, ind)=>{
               return (
-                <NavLink key={ind} to={arrItem === 'HOME' ? '/' : `/${arrItem}`} 
+                <NavLink key={ind} to={arrItem === 'HOME' ? '/' : `/${arrItem.toLowerCase()}`} 
                 className={(navData)=> navData.isActive ? 'nav-link active ' : 'nav-link'} 
                 >{arrItem}</NavLink>
               )
