@@ -2,7 +2,7 @@ import "./Card.css";
 
 const Card = ({img}) => {
   return (
-    <div className="card-container">
+    <div className="card-container p-5">
       <div className="card">
         <div className="row">
           <div className="col-lg-5">

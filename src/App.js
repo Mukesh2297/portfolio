@@ -6,7 +6,7 @@ import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div>    
+    <div style = {{height:"100vh"}}>    
     <Header />
     <Routes>
       <Route exact path="/" element={<Home />} />
